@@ -1,0 +1,212 @@
+
+/*
+*
+* Imports
+*
+*/
+
+@import "normalize";
+@import "elements";
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: @black
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: @seablue;
+    color: white;
+    text-shadow: none;
+}
+
+::selection {
+    background: @seablue;
+    color: white;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1.5em 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+@white:             rgba(244,244,242,1);
+@black:             rgba(34,34,34,1);
+@darkblue:          rgba(107,151,191,1);
+@darkerblue:        rgba(77,121,161,1);
+@heavyblue:         rgba(47,91,131,1);
+@seablue:           rgba(135,191,242,1);
+@lightblue:         rgba(208,228,242,1);
+@lightgrey:         rgba(153,153,153,1);
+@grey:              rgba(119,119,119,1);
+@orange:            rgba(250,167,50,1);
+
+/*
+*
+* Golden Grid System
+*
+*/
+
+@line: 24;
+@column: 100% / 18;
+@font-size: 16;
+@em:@font-size*1em;
+
+figure {
+	position: relative;
+}
+
+figure img, figure object, figure embed, figure video {
+	max-width: 100%; 
+	display: block;
+}
+
+img {
+	border: 0; 
+	-ms-interpolation-mode: bicubic;
+}
+
+.tiny {
+	/* 13px / 18px */
+	font-size: (@font-size*0.8125) / @em;
+	line-height: (@line*0.75) / (@font-size*0.8125) * 1em;
+}
+
+.small {
+    font-size: 13/@em;
+    line-height: 23/@em;
+}
+
+.normal, h3 {
+	/* 16px / 24px */
+	font-size: @font-size / @em;
+	line-height: @line / @em; /* 24 */
+}
+
+.large, h2 {
+	/* 26 / 36px */
+	font-size: 26 / @em;
+	line-height: (@line*1.5) / 26 * 1em;
+}
+
+.huge, h1 {
+	/* 42px / 48px */
+	font-size: 42 / @em;
+	line-height: (@line*2) / 42 * 1em;
+}
+
+.massive {
+	/* 68px / 72px */
+	font-size: 68 / @em;
+	line-height: (@line*3) / 68 * 1em;
+}
+
+.wrapper {
+	padding: 0 (@line/2)/@em;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+	height: 100%;
+}
+
+body {
+	.normal;
+	height: 100%;
+	font-family: "pt-sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: "sommet-rounded", Georgia, Arial, sans-serif;
+}
+
+a {
+    &:link, &:visited {
+        color: @darkblue;
+    }
+
+    &:hover, &:focus, &:active {
+        color: @darkerblue;
+    }
+}
+
+.container {
+	margin: auto @column;
+}
+
+header {
+	background: @seablue;
+	height: 100/@em;
+	padding: 10/@em;
+
+	img {
+		display: block;
+		width: 150/@em;
+		margin: 0 auto;
+	}
+}
+
+#posts {
+	li {
+		article {
+			.wrapper;
+		}
+	}
+}
+
+
+
