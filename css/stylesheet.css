@@ -70,4 +70,5 @@ article ul{list-style:disc inside}
 #posts>li article a.headline h1{font-size:1.625em;line-height:1.3846153846153846em}
 #posts>li article a.more{text-decoration:underline;display:block;text-align:center}
 #content{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#disqus_thread{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-top:3em}
 @media only screen and (min-width:768px){.container{margin:2.25em 16.666666666666664%}}@media only screen and (min-width:1200px){.container{width:auto;margin:2.25em auto;max-width:42.5em}}
