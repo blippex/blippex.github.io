@@ -185,7 +185,8 @@ a {
 }
 
 .container {
-	margin: auto @column;
+	margin: 1.5*@line/@em @column;
+	padding-bottom: 2*@line/@em;
 }
 
 header {
@@ -200,17 +201,60 @@ header {
 	}
 }
 
+article {
+	img {
+		display: block;
+		width: 100%;
+	}
+
+	ul {
+		list-style: disc inside;
+	}
+}
+
 #posts {
-	li {
+	>li {
+		padding-bottom: 2*@line/@em;
+		margin-bottom: 2*@line/@em;
+		border-bottom: 1px solid #cccccc;
+
+		&:last,
+		&:last-child {
+			margin-bottom: 0;
+		}
+
 		article {
 			.wrapper;
+
+			a.headline {
+				&:link, &:visited {
+					text-decoration: none;
+				}
+
+				&:hover, &:active, &:focus {
+
+				}
+
+				h1 {
+					.large;
+				}
+			}
 		}
 	}
 }
 
-.content {
+#content {
 	.wrapper;
 }
 
+@media only screen and (min-width: 768px) {
+	.container {
+		margin: 1.5*@line/@em 3*@column;
+	}
+}
 
-
+@media only screen and (min-width: 1200px) {
+	.container {
+		margin: 1.5*@line/@em 5*@column;
+	}
+}
