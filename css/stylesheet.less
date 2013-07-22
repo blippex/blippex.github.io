@@ -172,6 +172,7 @@ body {
 
 h1, h2, h3 {
 	font-family: "sommet-rounded", Georgia, Arial, sans-serif;
+	color: @darkblue;
 }
 
 a {
@@ -214,9 +215,8 @@ article {
 
 #posts {
 	>li {
-		padding-bottom: 2*@line/@em;
-		margin-bottom: 2*@line/@em;
-		border-bottom: 1px solid #cccccc;
+		padding-bottom: @line/@em;
+		margin-bottom: @line/@em;
 
 		&:last,
 		&:last-child {
@@ -238,6 +238,10 @@ article {
 				h1 {
 					.large;
 				}
+			}
+
+			a.more {
+				text-decoration: underline;
 			}
 		}
 	}

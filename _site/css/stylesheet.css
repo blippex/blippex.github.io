@@ -57,15 +57,16 @@ img{border:0;-ms-interpolation-mode:bicubic}
 .wrapper{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html{height:100%}
 body{font-size:1em;line-height:1.5em;height:100%;font-family:"pt-sans","Helvetica Neue",Arial,sans-serif}
-h1,h2,h3{font-family:"sommet-rounded",Georgia,Arial,sans-serif}
+h1,h2,h3{font-family:"sommet-rounded",Georgia,Arial,sans-serif;color:#6b97bf}
 a:link,a:visited{color:#6b97bf}
 a:hover,a:focus,a:active{color:#4d79a1}
 .container{margin:2.25em 5.555555555555555%;padding-bottom:3em}
 header{background:#87bff2;height:2.5em;padding:.625em}header img{display:block;width:9.375em;margin:0 auto}
 article img{display:block;width:100%}
 article ul{list-style:disc inside}
-#posts>li{padding-bottom:3em;margin-bottom:3em;border-bottom:1px solid #ccc}#posts>li:last,#posts>li:last-child{margin-bottom:0}
+#posts>li{padding-bottom:1.5em;margin-bottom:1.5em}#posts>li:last,#posts>li:last-child{margin-bottom:0}
 #posts>li article{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#posts>li article a.headline:link,#posts>li article a.headline:visited{text-decoration:none}
 #posts>li article a.headline h1{font-size:1.625em;line-height:1.3846153846153846em}
+#posts>li article a.more{text-decoration:underline}
 #content{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 @media only screen and (min-width:768px){.container{margin:2.25em 16.666666666666664%}}@media only screen and (min-width:1200px){.container{margin:2.25em 27.77777777777778%}}

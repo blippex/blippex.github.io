@@ -5,9 +5,9 @@ date:   2013-07-11 14:13:14
 categories: updates
 ---
 
-![Blippex](http://archify1.files.wordpress.com/2013/07/tile_1400x560.png?w=750)
+![Blippex](/css/img/posts/blippex-promo.png)
 
-Google’s PageRank has revolutionized search, but over the last ten years it has forced every other search engine to look and act like Google. This has made it almost impossible to establish a better, modern search engine other than Google, granted it’s popularity is the major indicator for it’s quality. Nice for Google, not so nice for healthy competition.
+Google’s PageRank has revolutionized search, but over the last ten years it has forced every other search engine to look and act like Google. This has made it almost impossible to establish a better, modern search engine other than Google, granted it’s popularity is the major indicator for it’s quality. Nice for Google, not so nice for healthy competition.<!-- more -->
 
 **[Meet the DwellRank](http://www.blippex.org/)**
 

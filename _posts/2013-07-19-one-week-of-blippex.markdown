@@ -7,13 +7,13 @@ categories: updates
 
 One week ago we launched [Blippex](https://www.blippex.org/) to start a discussion, and boy, we were blown away from the usage and feedback!
 
-Blippex was covered on [GigaOM](http://gigaom.com/2013/07/11/privacy-centric-search-engine-blippex-launches-with-a-new-twist-on-ranking/), [BBC](http://www.bbc.co.uk/news/technology-23318889), [Businessweek](http://www.businessweek.com/articles/2013-07-11/blippex-a-private-search-engines-new-twist-on-rankings), [Venture Village](http://venturevillage.eu/archify-launches-blippex) and many other sites. After existing for only one week, the BBC already see us as an alternative to Google, which we never thought ourselves as at this state!
+Blippex was covered on [GigaOM](http://gigaom.com/2013/07/11/privacy-centric-search-engine-blippex-launches-with-a-new-twist-on-ranking/), [BBC](http://www.bbc.co.uk/news/technology-23318889), [Businessweek](http://www.businessweek.com/articles/2013-07-11/blippex-a-private-search-engines-new-twist-on-rankings), [Venture Village](http://venturevillage.eu/archify-launches-blippex) and many other sites. After existing for only one week, the BBC already see us as an alternative to Google, which we never thought ourselves as at this state!<!-- more -->
 
 **Thank you all for the great support over these past days and of course, keep on searching &amp; browsing!**
 
 Blippex has served over 125 000 searches this week. Here is a graph of the number of searches per day
 
-![Searches on Blippex](http://archify1.files.wordpress.com/2013/07/searches.png?w=750&h=485)
+![Searches on Blippex](/css/img/posts/searches-per-day.png)
 
 Just to give you an idea of what this means to us: According to [these](https://duckduckgo.com/traffic.html) statistics it took [DuckDuckGo](https://duckduckgo.com/) (our favorite search engine!) nearly 18 months, after the company was founded, to get to around 30 000 searches per day, which we reached in only one week!
 
@@ -23,7 +23,7 @@ Today we have released new versions of the Chrome, Firefox and Safari extension 
 
 This is how it looks like:
 
-![Blippex overlay](http://archify1.files.wordpress.com/2013/07/blippex_overlay1.png)
+![Blippex overlay](/css/img/posts/blippex-overlay.png)
 
 The search overlay is available for Chrome, Safari and Firefox, so [go get it](https://www.blippex.org/extension)!
 
