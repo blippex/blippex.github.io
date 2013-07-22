@@ -61,14 +61,16 @@ h1,h2,h3{font-family:"sommet-rounded",Georgia,Arial,sans-serif;color:#6b97bf}
 a:link,a:visited{color:#6b97bf}
 a:hover,a:focus,a:active{color:#4d79a1}
 .container{margin:2.25em 5.555555555555555%;padding-bottom:3em}
-header{background:#87bff2;height:2.5em;padding:.625em}header img{display:block;width:9.375em;margin:0 auto}
+header{overflow:hidden;background:#87bff2;height:3.125em;width:100%;padding:1.125em 0 .125em}header a.home{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:left;min-width:12.5em;max-width:42.5em;margin-left:5.555555555555555%}header a.home img{display:block;width:12.5em}
+header a.blippex{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;float:right;color:#f4f4f2;margin-right:1.5em}
 article img{display:block;width:100%}
 article ul{list-style:disc inside}
+article date{font-size:.8125em;line-height:1.4375em;display:block;color:#777}
 #posts>li{padding-bottom:1.5em;margin-bottom:1.5em}#posts>li:last,#posts>li:last-child{margin-bottom:0}
 #posts>li article{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#posts>li article a.headline:link,#posts>li article a.headline:visited{text-decoration:none}
 #posts>li article a.headline:hover,#posts>li article a.headline:active,#posts>li article a.headline:focus{text-decoration:underline}
 #posts>li article a.headline h1{font-size:1.625em;line-height:1.3846153846153846em}
-#posts>li article a.more{text-decoration:underline;display:block;text-align:center}
+#posts>li article a.more{text-decoration:underline;display:block;margin-top:1.5em;text-align:center}
 #content{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 #disqus_thread{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-top:3em}
-@media only screen and (min-width:768px){.container{margin:2.25em 16.666666666666664%}}@media only screen and (min-width:1200px){.container{width:auto;margin:2.25em auto;max-width:42.5em}}
+@media only screen and (min-width:768px){.container{margin:2.25em 16.666666666666664%} header a.home{margin-left:16.666666666666664%}}@media only screen and (min-width:1200px){.container{width:auto;margin:2.25em auto;max-width:42.5em} header a.home{margin-left:22.22222222222222%}}

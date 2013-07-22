@@ -9,7 +9,7 @@ date:   2013-07-22 14:13:14
     <li>
       <article>
         <a href="{{ post.url }}" title="{{ post.title }}" class="headline"><h1>{{ post.title }}</h1></a>
-        <p>{{  post.content | split: '<!-- more -->' | first  }}</p>
+        {{  post.content | split: '<!-- more -->' | first  }}
         <a href="{{ post.url }}" title="{{ post.title }}" class="more">Read more →</a>
       </article>
     </li>

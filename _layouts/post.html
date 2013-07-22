@@ -4,10 +4,8 @@ layout: default
 
 <article id="content">
 	<h2>{{ page.title }}</h2>
-	<span class="meta">{{ page.date | date_to_string }}</span>
-	<p>
-		{{ content }}
-  	</p>
+	{{ content }}
+  	<date date-time="{{ page.date }}">Published on {{ page.date | date_to_string }}</date>
 </article>
 
 <div id="disqus_thread"></div>

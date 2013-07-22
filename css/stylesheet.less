@@ -191,14 +191,35 @@ a {
 }
 
 header {
+	overflow: hidden;
 	background: @seablue;
-	height: 40/@em;
-	padding: 10/@em;
+	height: 50/@em;
+	width: 100%;
+	padding: 18/@em 0 2/@em;
 
-	img {
-		display: block;
-		width: 150/@em;
-		margin: 0 auto;
+	a {
+
+		&.home {
+			.wrapper;
+			display: block;
+			float: left;
+			min-width: 200/@em;
+			max-width: 680/@em;
+			margin-left: @column;
+
+			img {
+				display: block;
+				width: 200/@em;
+			}
+		}
+
+		&.blippex {
+			.wrapper;
+			display: block;
+			float: right;
+			color: @white;
+			margin-right: @line/@em;
+		}
 	}
 }
 
@@ -210,6 +231,12 @@ article {
 
 	ul {
 		list-style: disc inside;
+	}
+
+	date {
+		.small;
+		display: block;
+		color: @grey;
 	}
 }
 
@@ -243,6 +270,7 @@ article {
 			a.more {
 				text-decoration: underline;
 				display: block;
+				margin-top: @line/@em;
 				text-align: center;
 			}
 		}
@@ -262,6 +290,14 @@ article {
 	.container {
 		margin: 1.5*@line/@em 3*@column;
 	}
+
+	header {
+		a {
+			&.home {
+				margin-left: 3*@column;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -270,5 +306,13 @@ article {
 		width: auto;
 		margin: 1.5*@line/@em auto;
 		max-width: 680/@em;
+	}
+
+	header {
+		a {
+			&.home {
+				margin-left: 4*@column;
+			}
+		}
 	}
 }
