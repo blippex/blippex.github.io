@@ -232,7 +232,7 @@ article {
 				}
 
 				&:hover, &:active, &:focus {
-
+					text-decoration: underline;
 				}
 
 				h1 {
@@ -242,6 +242,8 @@ article {
 
 			a.more {
 				text-decoration: underline;
+				display: block;
+				text-align: center;
 			}
 		}
 	}
@@ -259,6 +261,9 @@ article {
 
 @media only screen and (min-width: 1200px) {
 	.container {
-		margin: 1.5*@line/@em 5*@column;
+		//margin: 1.5*@line/@em 5*@column;
+		width: auto;
+		margin: 1.5*@line/@em auto;
+		max-width: 680/@em;
 	}
 }

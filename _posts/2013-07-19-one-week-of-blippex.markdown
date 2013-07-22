@@ -5,9 +5,7 @@ date:   2013-07-19 14:13:14
 categories: updates
 ---
 
-One week ago we launched [Blippex](https://www.blippex.org/) to start a discussion, and boy, we were blown away from the usage and feedback!
-
-Blippex was covered on [GigaOM](http://gigaom.com/2013/07/11/privacy-centric-search-engine-blippex-launches-with-a-new-twist-on-ranking/), [BBC](http://www.bbc.co.uk/news/technology-23318889), [Businessweek](http://www.businessweek.com/articles/2013-07-11/blippex-a-private-search-engines-new-twist-on-rankings), [Venture Village](http://venturevillage.eu/archify-launches-blippex) and many other sites. After existing for only one week, the BBC already see us as an alternative to Google, which we never thought ourselves as at this state!<!-- more -->
+One week ago we launched [Blippex](https://www.blippex.org/) to start a discussion, and boy, we were blown away from the usage and feedback! Blippex was covered on [GigaOM](http://gigaom.com/2013/07/11/privacy-centric-search-engine-blippex-launches-with-a-new-twist-on-ranking/), [BBC](http://www.bbc.co.uk/news/technology-23318889), [Businessweek](http://www.businessweek.com/articles/2013-07-11/blippex-a-private-search-engines-new-twist-on-rankings), [Venture Village](http://venturevillage.eu/archify-launches-blippex) and many other sites. After existing for only one week, the BBC already see us as an alternative to Google, which we never thought ourselves as at this state!<!-- more -->
 
 **Thank you all for the great support over these past days and of course, keep on searching &amp; browsing!**
 
