@@ -61,5 +61,6 @@ h1,h2,h3{font-family:"sommet-rounded",Georgia,Arial,sans-serif}
 a:link,a:visited{color:#6b97bf}
 a:hover,a:focus,a:active{color:#4d79a1}
 .container{margin:auto 5.555555555555555%}
-header{background:#87bff2;height:6.25em;padding:.625em}header img{display:block;width:9.375em;margin:0 auto}
+header{background:#87bff2;height:2.5em;padding:.625em}header img{display:block;width:9.375em;margin:0 auto}
 #posts li article{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.content{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
