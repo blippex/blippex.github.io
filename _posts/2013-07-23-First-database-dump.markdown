@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First databse dump"
+title:  "First database dump"
 date:   2013-07-23 14:13:14
 categories: updates
 tags: dump database
