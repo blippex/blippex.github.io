@@ -16,6 +16,7 @@ The database format looks like this (dummy data):
 	"url": "https://www.example.com/",
 	"host": "www.example.com",
 	"root": "example.com",
+	"title": "Example Title"
 	"time_spent": [
 		{
 			"sec": 45,
