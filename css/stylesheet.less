@@ -219,6 +219,11 @@ header {
 			float: right;
 			color: @white;
 			margin-right: @line/@em;
+			margin-top: 3/@em;
+
+			span {
+				display: none;
+			}
 		}
 	}
 }
@@ -296,22 +301,38 @@ article {
 			&.home {
 				margin-left: 3*@column;
 			}
+
+			&.blippex {
+				span {
+					display: inline;
+				}
+			}
 		}
 	}
 }
 
 @media only screen and (min-width: 1200px) {
 	.container {
-		//margin: 1.5*@line/@em 5*@column;
 		width: auto;
 		margin: 1.5*@line/@em auto;
 		max-width: 680/@em;
 	}
 
 	header {
+		position: relative;
+
 		a {
 			&.home {
-				margin-left: 4*@column;
+				width: auto;
+				max-width: 680/@em;
+				margin: 0 auto;
+				float: none;
+			}
+
+			&.blippex {
+				position: absolute;
+				top: 17/@em;
+				right: 10/@em;
 			}
 		}
 	}
