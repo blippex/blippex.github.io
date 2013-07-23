@@ -52,3 +52,5 @@ We are releasing [Blippex](http://www.blippex.org/) today and invite you to part
 
 Gerald & Max
 PS: Why the heart in the Blippex logo? Only humans have a heart!
+
+*Warning*: Looking for previous comments on this article? Please refer to [this](http://blog.archify.com/2013/07/11/a-search-engine-built-by-the-crowd-that-does-not-suck/) blog entry.

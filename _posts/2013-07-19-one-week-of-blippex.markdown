@@ -34,3 +34,5 @@ Next week we will release our first database dump (it will be a mongodump, we th
 And finally: To help improve Blippex, please tell your friends! The more people who are a part of the community, the better it will get for everyone!
 
 **Thank you &amp; keep on searching!**
+
+*Warning*: Looking for previous comments on this article? Please refer to [this](http://blog.archify.com/2013/07/19/one-week-of-blippex-125k-searches-tons-of-press-and-a-search-overlay/) blog entry.
