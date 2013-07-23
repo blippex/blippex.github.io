@@ -6,7 +6,7 @@ categories: updates
 tags: dump database
 ---
 
-It has been an amazing last week for Blippex. Last friday we reached the milestone of 50k searches per day. Today we are releasing as promised the first dump of our database. We decided to release the database as a BSON dump of our MongoDB database on [github](https://github.com/blippex/blippex_search_database_dump)—you can also [download it](https://s3-eu-west-1.amazonaws.com/export.blippex.org/blippex_18_07_2013.tar.gz), or grab the [torrent](magnet:?xt=urn:btih:B8E78959FD987B6644274FC36B73FD9E609B7F48&dn=blippex_18_07_2013.tar.gz&tr=http%3a//s3-tracker.eu-west-1.amazonaws.com%3a6969/announce).<!-- more -->
+It has been an amazing last week for Blippex. Last friday we reached the milestone of 50k searches per day. Today we are releasing as promised the first dump of our database. We decided to release the database as a BSON dump of our MongoDB database on [github](https://github.com/blippex/blippex_search_database_dump)—you can also [download it](https://s3-eu-west-1.amazonaws.com/export.blippex.org/blippex_18_07_2013.tar.gz).<!-- more -->
 
 The database format looks like this (dummy data):
 
