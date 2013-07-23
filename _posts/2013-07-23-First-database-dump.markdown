@@ -3,10 +3,10 @@ layout: post
 title:  "First databse dump"
 date:   2013-07-23 14:13:14
 categories: updates
-tags: dump
+tags: dump database
 ---
 
-It has been an amazing last week for Blippex. Last friday we reached the milestone of 50k searches per day. Today we are releasing as promised the first dump of our database. We decided to release the database as a BSON dump of our MongoDB database on github at [https://github.com/blippex/blippex_search_database_dump](https://github.com/blippex/blippex_search_database_dump) and there is also a [torrent]().
+It has been an amazing last week for Blippex. Last friday we reached the milestone of 50k searches per day. Today we are releasing as promised the first dump of our database. We decided to release the database as a BSON dump of our MongoDB database on github at [https://github.com/blippex/blippex_search_database_dump](https://github.com/blippex/blippex_search_database_dump), download it [https://s3-eu-west-1.amazonaws.com/export.blippex.org/blippex_18_07_2013.tar.gz](https://s3-eu-west-1.amazonaws.com/export.blippex.org/blippex_18_07_2013.tar.gz) and there is also a [torrent]().
 
 The database format looks like this (dummy data):
 {% highlight json %}
