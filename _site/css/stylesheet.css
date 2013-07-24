@@ -66,6 +66,8 @@ header a.blippex{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:b
 article img{display:block;width:100%}
 article ul{list-style:disc inside}
 article date{font-size:.8125em;line-height:1.4375em;display:block;color:#777}
+article .call{-webkit-border-radius:.25em;-moz-border-radius:.25em;border-radius:.25em;display:block;padding:.625em;background:#87bff2;color:#f4f4f2;font-weight:bold;text-decoration:none;text-align:center;width:15.625em;width:100%;margin:1.5em auto}article .call:hover,article .call:active,article .call:focus{background:#6b97bf}
+article .call span{font-size:.8125em;line-height:1.4375em;font-weight:normal;display:block}
 #posts>li{padding-bottom:1.5em;margin-bottom:1.5em}#posts>li:last,#posts>li:last-child{margin-bottom:0}
 #posts>li article{padding:0 .75em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#posts>li article a.headline:link,#posts>li article a.headline:visited{text-decoration:none}
 #posts>li article a.headline:hover,#posts>li article a.headline:active,#posts>li article a.headline:focus{text-decoration:underline}

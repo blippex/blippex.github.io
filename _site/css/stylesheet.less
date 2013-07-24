@@ -243,6 +243,32 @@ article {
 		display: block;
 		color: @grey;
 	}
+
+	.call {
+		.rounded(4/@em);
+		display: block;
+		padding: 10/@em;
+		background: @seablue;
+		color: @white;
+		font-weight: bold;
+		text-decoration: none;
+		text-align: center;
+		width: 250/@em;
+		width: 100%;
+		margin: @line/@em auto;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background: @darkblue;
+		}
+
+		span {
+			.small;
+			font-weight: normal;
+			display: block;
+		}
+	}
 }
 
 #posts {
