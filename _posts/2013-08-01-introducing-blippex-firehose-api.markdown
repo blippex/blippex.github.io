@@ -5,11 +5,11 @@ date:   2013-08-01 16:00:00
 categories: updates
 ---
 
-Lat week, when we released the [first database dump of Blippex](http://blippex.github.io/updates/2013/07/23/First-database-dump.html), [mgamache on Hackernews](https://news.ycombinator.com/item?id=6090659) said it will be cool to have some kind of firehose API like Twitter has, a nearly realtime feed of the URLs indexed by Blippex.
+Lat week, when we released the [first database dump of Blippex](http://blippex.github.io/updates/2013/07/23/First-database-dump.html), [mgamache on Hackernews](https://news.ycombinator.com/item?id=6090659) said it would be great to have some kind of firehose API like Twitter has, a nearly realtime feed of the URLs indexed by Blippex.
 
 **We thought that is a very cool idea and present today the Blippex Firehose API!**
 
-The Blippex Firehose API is streaming the URL and the title of every page that is getting indexed by Blippex in near realtime. We have decided to use [SockJS](https://github.com/sockjs/sockjs-client) for streaming the data because it is right now the most used websocket library with clients for a lot of languages, direct websocket access and working fallbacks if you are, for example, behind a proxy-server.
+The Blippex Firehose API is streaming the URL and the title of every page that is getting indexed by Blippex in near realtime. We have decided to use [SockJS](https://github.com/sockjs/sockjs-client) to stream the data because it is the most used websocket library with direct websocket access and working fallbacks if you are, for example, behind a proxy-server, which actively maintained.
 
 **Accessing the Blippex Firehose API**
 
@@ -30,7 +30,6 @@ var sock = new SockJS('https://firehose.blippex.org');
    };
 </script>
 <a id="fh" href="#" target="_blank">If you don't see links here please update your browser</a>
-
 {% endhighlight %}
 
 As you can see no registration is involved and again, the firehose does not use any cookies and we don't store any IPs.
