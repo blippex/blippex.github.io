@@ -58,6 +58,8 @@ var sock = new SockJS('https://firehose.blippex.org');
 
 **We have a nicer, quite addictive demo accessable [here](https://www.blippex.org/firehose) for you!**
 
+From what we know, no other search engine has a Firehose API like this, so this is a world's first!
+
 **Dataformat**
 
 After opening a SockJS connection to https://firehose.blippex.org the API sends JSON objects like this to the client:
