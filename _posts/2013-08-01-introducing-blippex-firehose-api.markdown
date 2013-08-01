@@ -5,11 +5,11 @@ date:   2013-08-01 16:00:00
 categories: updates
 ---
 
-Last week, when we released the [first database dump of Blippex](http://blippex.github.io/updates/2013/07/23/First-database-dump.html), [mgamache on Hackernews](https://news.ycombinator.com/item?id=6090659) said it would be great to have some kind of firehose API like Twitter has—a nearly realtime feed of the URLs indexed by Blippex.<!-- more -->
+Last week, when we released the [first database dump of Blippex](http://blippex.github.io/updates/2013/07/23/First-database-dump.html), [mgamache on Hackernews](https://news.ycombinator.com/item?id=6090659) said it would be great to have some kind of firehose API like Twitter has—a nearly realtime feed of the URLs indexed by Blippex.
 
 **We thought <em>"that's a pretty cool idea!"</em> and now present the Blippex Firehose API!**
 
-The Blippex Firehose API is streaming the URL and the title of every page that is getting indexed by Blippex, in near-realtime. We have decided to use [SockJS](https://github.com/sockjs/sockjs-client) to stream the data because it is the most used websocket library with direct websocket access and working fallbacks if you are, for example, behind a proxy-server, which is actively maintained.
+The Blippex Firehose API is streaming the URL and the title of every page that is getting indexed by Blippex, in near-realtime. We have decided to use [SockJS](https://github.com/sockjs/sockjs-client) to stream the data because it is the most used websocket library with direct websocket access and working fallbacks if you are, for example, behind a proxy-server, which is actively maintained.<!-- more -->
 
 **Accessing the Blippex Firehose API**
 
@@ -55,7 +55,7 @@ var sock = new SockJS('https://firehose.blippex.org');
 {% endraw %}
 
 
-We have a nicer, **quite addictive demo accessable [here](https://www.blippex.org/firehose) for you**! From what we know, no other search engine has a Firehose API like this, so this is a world's first!
+We have a nicer, **quite addictive demo accessiable [here](https://www.blippex.org/firehose) for you**! From what we know, no other search engine has a Firehose API like this, so this is a world's first!
 
 **Dataformat**
 
@@ -70,7 +70,7 @@ We can't wait to see what developers will do with this! If you have any ideas fo
 
 **Future**
 
-This is of course just a start, we want to implement filters so that you can get only the pages that have a specified keyword in it. Think of it like the Twitter firehose API but for web-pages that were seen by real people!
+This of course is just a start, we want to implement filters so that you can get only the pages that have a specified keyword in it. Think of it like the Twitter firehose API but for web-pages that were seen by real people!
 
 And finally—to help improve Blippex, please tell your friends and help spread the word. The more people get in, the better it will get for everyone.
 
