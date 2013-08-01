@@ -55,7 +55,7 @@ var sock = new SockJS('https://firehose.blippex.org');
 {% endraw %}
 
 
-We have a nicer, **quite addictive demo accessiable [here](https://www.blippex.org/firehose) for you**! From what we know, no other search engine has a Firehose API like this, so this is a world's first!
+We have a nicer, **quite addictive demo accessible [here](https://www.blippex.org/firehose) for you**! From what we know, no other search engine has a Firehose API like this, so this is a world's first!
 
 **Dataformat**
 
