@@ -9,7 +9,7 @@ Last week, when we released the [first database dump of Blippex](http://blippex.
 
 **We thought <em>"that's a pretty cool idea!"</em> and now present the Blippex Firehose API!**
 
-The Blippex Firehose API is streaming the URL and the title of every page that is getting indexed by Blippex, in near-realtime. We have decided to use [SockJS](https://github.com/sockjs/sockjs-client) to stream the data because it is the most used websocket library with direct websocket access and working fallbacks if you are, for example, behind a proxy-server, which is actively maintained.<!-- more -->
+The Blippex Firehose API is streaming the URL and the title of every page that is getting indexed by Blippex, in near-realtime. We have decided to use [SockJS](https://github.com/sockjs/sockjs-client) to stream the data because it is the most used websocket library with direct websocket access, working fallbacks if you are, for example, behind a proxy-server and is actively maintained.<!-- more -->
 
 **Accessing the Blippex Firehose API**
 
@@ -32,7 +32,7 @@ var sock = new SockJS('https://firehose.blippex.org');
 <a id="fh" href="#" target="_blank">If you don't see links here please update your browser</a>
 {% endhighlight %}
 
-As you can seem no registration is involved—and again, the firehose does not use any cookies and we don't store any IP addresses.
+As you can seem no registration is involved—and again, the Blippex Firehose API does not use any cookies and we don't store any IP addresses.
 The result of this script is shown here:
 
 {% raw %}
