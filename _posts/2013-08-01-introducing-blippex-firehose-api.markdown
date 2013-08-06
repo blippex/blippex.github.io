@@ -5,7 +5,7 @@ date:   2013-08-01 16:00:00
 categories: updates
 ---
 
-Last week, when we released the [first database dump of Blippex](http://blippex.github.io/updates/2013/07/23/First-database-dump.html), [mgamache on Hackernews](https://news.ycombinator.com/item?id=6090659) said it would be great to have some kind of firehose API like Twitter has—a nearly realtime feed of the URLs indexed by Blippex.
+Last week, when we released the [first database dump of Blippex](http://blippex.github.io/updates/2013/07/23/First-database-dump.html), [mgamache on Hackernews](https://news.ycombinator.com/item?id=6090659) said it would be great to have some kind of firehose API like Twitter has—a nearly realtime feed of the URLs indexed by Blippex.<!-- more -->
 
 **We thought <em>"that's a pretty cool idea!"</em> and now present the Blippex Firehose API!**
 
