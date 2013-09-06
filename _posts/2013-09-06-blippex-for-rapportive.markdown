@@ -6,7 +6,7 @@ categories: updates
 ---
 
 At Blippex we love [Rapportive](http://rapportive.com/), a tool that helps us since years to get up to date information about the people we are communicating with.   
-###Today we are announcing Blippex for Rapportive!
+###So today we are announcing Blippex for Rapportive!
 <!-- more -->
 
 [![Blippex for Rapportive](/css/img/posts/rapportive.png)](https://rapportive.com/raplets?preset=https%3A%2F%2Fapi.blippex.org%2Frapportive%2F)
