@@ -8,7 +8,7 @@ categories: updates
 Today we are releasing the second database dump of the Blippex database!   
 This second dump is more than twice as big as the [first one](/updates/2013/07/23/First-database-dump.html), containing more than 4 millions URLs.
 
-The format is the same, it is a BSON dump of our MongoDB database, you can find it on [github](https://github.com/blippex/blippex_search_database_dump) or [download it here direct](https://s3-eu-west-1.amazonaws.com/export.blippex.org/blippex_26_08_2013.tar.gz) (577MB, extracted over 1GB).
+The format is the same, it is a BSON dump of our MongoDB database, you can find it on [github](https://github.com/blippex/blippex_search_database_dump) or [download it here direct](https://dump.blippex.org/blippex_26_08_2013.tar.gz) (577MB, extracted over 1GB).
 <!-- more -->
 
 The database format looks like this (dummy data):
